@@ -1,0 +1,113 @@
+@font-face {
+    font-family: AllFont;
+    src: url(https://alioss.xiamoqwq.com/font/emmmm.woff2);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+*:not([class*=icon]):not(i) {
+    font-family: AllFont !important
+}
+
+#root,
+.App,
+body,
+html {
+    min-height: 70vh;
+    margin: 0;
+    padding: 0;
+    margin-top: 1% !important
+}
+
+nav{
+    color: white;
+}
+
+.chakra-ui-light .main-box,
+.chakra-ui-light .readme-box {
+    background-color: rgba(255, 255, 255, .8) !important
+}
+
+
+.chakra-ui-dark .main-box,
+.chakra-ui-dark .readme-box {
+    background-color: rgba(45, 55, 72, .8) !important
+}
+
+.main-box {
+    border-radius: 15px !important;
+}
+
+.readme-box {
+    border-radius: 15px !important;
+    box-shadow: unset !important
+}
+
+button.chakra-button.css-19sxzqs,
+button.chakra-button.css-1s44hm6,
+button.chakra-button.css-squyht {
+    color: #000 !important
+}
+
+.css-neion {
+    color: #ffb6c1 !important
+}
+
+.chakra-stack button {
+    color: #fff !important
+}
+
+.chakra-stack .list-title p,
+.overlay button {
+    color: #ffb6c1 !important
+}
+
+a:hover {
+    color: #f9cfec !important
+    
+}
+
+div.footer.css-3m0ceo {
+    /* display: none !important */
+    display: block;
+}
+
+.foot {
+    line-height: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px
+}
+
+#copy {
+    background-color:pink!important;
+    border-radius: 10px !important
+}
+
+.chakra-ui-light {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.chakra-ui-light, .chakra-ui-dark {
+    background-image: url(https://nanako-1253183981.cos.ap-guangzhou.myqcloud.com/public-IMG/%E5%BF%83%E7%94%98%E6%83%85%E6%84%BF.png);
+    background-position: center;
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:960px) {
+    .chakra-ui-light, .chakra-ui-dark {
+        background-image: url(https://nanako-1253183981.cos.ap-guangzhou.myqcloud.com/public-IMG/%E7%AB%96%E7%89%88%E5%A3%81%E7%BA%B8.png);
+        background-position: center;
+        background-attachment:fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
