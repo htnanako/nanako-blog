@@ -95,7 +95,7 @@ div.footer.css-3m0ceo {
 }
 
 .chakra-ui-light, .chakra-ui-dark {
-    background-image: url(https://nanako-1253183981.cos.ap-guangzhou.myqcloud.com/public-IMG/%E5%BF%83%E7%94%98%E6%83%85%E6%84%BF.png);
+    background-image: url(https://ghproxy.com/https://raw.githubusercontent.com/htnanako/nanako-blog/main/public-IMG/%E5%BF%83%E7%94%98%E6%83%85%E6%84%BF.png);
     background-position: center;
     background-attachment:fixed;
     background-size: cover;
@@ -104,7 +104,7 @@ div.footer.css-3m0ceo {
 
 @media screen and (max-width:960px) {
     .chakra-ui-light, .chakra-ui-dark {
-        background-image: url(https://nanako-1253183981.cos.ap-guangzhou.myqcloud.com/public-IMG/%E7%AB%96%E7%89%88%E5%A3%81%E7%BA%B8.png);
+        background-image: url(https://ghproxy.com/https://raw.githubusercontent.com/htnanako/nanako-blog/main/public-IMG/%E7%AB%96%E7%89%88%E5%A3%81%E7%BA%B8.png);
         background-position: center;
         background-attachment:fixed;
         background-size: cover;
