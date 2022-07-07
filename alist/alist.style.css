@@ -100,7 +100,7 @@ div.footer.css-3m0ceo {
 
 @media screen and (max-width:960px) {
     .chakra-ui-light, .chakra-ui-dark {
-        background-image: url(https://ghproxy.com/https://raw.githubusercontent.com/htnanako/nanako-blog/main/public-IMG/shubanbizhi.png);
+        /* background-image: url(https://ghproxy.com/https://raw.githubusercontent.com/htnanako/nanako-blog/main/public-IMG/shubanbizhi.png); */
         background-position: center;
         background-attachment:fixed;
         background-size: cover;
