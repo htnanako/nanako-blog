@@ -3,7 +3,7 @@ window.onload = function () {
     var num1 = parseInt(Math.random() * 15 + 1);
     var num2 = parseInt(Math.random() * 10 + 1);
     document.body.style.backgroundImage = `url(https://ghproxy.com/https://raw.githubusercontent.com/htnanako/nanako-blog/main/public-IMG/Genshin%20Impact/%E6%A8%AA%E7%89%88/${num1}.JPG)`
-
+   
     //媒体查询
     const mQuery = window.matchMedia('(max-width:960px)')
     if (mQuery.matches) {
