@@ -1,0 +1,17 @@
+window.onload = function () {
+    //parseInt(Math.random() * (max - min + 1) + min)
+    var num1 = parseInt(Math.random() * 15 + 1);
+    console.log(num1);
+    var num2 = parseInt(Math.random() * 10 + 1);
+    // var light = document.getElementsByClassName('chakra-ui-light');
+    // console.log(light);
+    document.body.style.backgroundImage = `url(https://ghproxy.com/https://raw.githubusercontent.com/htnanako/nanako-blog/main/public-IMG/Genshin%20Impact/%E6%A8%AA%E7%89%88/${num1}.JPG)`
+
+    //媒体查询
+    const mQuery = window.matchMedia('(max-width:960px)')
+    if (mQuery.matches) {
+        document.body.style.backgroundImage = `url(https://ghproxy.com/https://raw.githubusercontent.com/htnanako/nanako-blog/main/public-IMG/Genshin%20Impact/%E7%AB%96%E7%89%88/${num2}.JPG)`
+    }
+
+
+}
