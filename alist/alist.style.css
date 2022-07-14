@@ -23,6 +23,20 @@ body{
     background-size: cover;
 }
 
+.chakra-ui-light .chakra-breadcrumb__list-item a,
+.chakra-ui-light .chakra-breadcrumb__list-item .chakra-breadcrumb__link{
+    background-color: rgba(255, 255, 255, .8) !important;
+    border-radius: 6px !important;
+}
+
+.chakra-ui-dark .chakra-breadcrumb__list-item a,
+.chakra-ui-dark .chakra-breadcrumb__list-item .chakra-breadcrumb__link{
+    background-color: rgba(45, 55, 72, .8) !important;
+    border-radius: 6px !important;
+}
+
+
+
 .chakra-ui-light .main-box,
 .chakra-ui-light .readme-box {
     background-color: rgba(255, 255, 255, .8) !important
