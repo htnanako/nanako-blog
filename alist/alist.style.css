@@ -1,6 +1,6 @@
 @font-face {
     font-family: AllFont;
-    src: url(https://alioss.xiamoqwq.com/font/emmmm.woff2);
+    src: url(https://raw.githubusercontent.com/htnanako/nanako-blog/main/alist/emmmm.woff2);
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -19,18 +19,19 @@ html {
     padding: 0;
     margin-top: 1% !important
 }
-body{
+
+body {
     background-size: cover;
 }
 
 .chakra-ui-light .chakra-breadcrumb__list-item a,
-.chakra-ui-light .chakra-breadcrumb__list-item .chakra-breadcrumb__link{
+.chakra-ui-light .chakra-breadcrumb__list-item .chakra-breadcrumb__link {
     background-color: rgba(255, 255, 255, .8) !important;
     border-radius: 6px !important;
 }
 
 .chakra-ui-dark .chakra-breadcrumb__list-item a,
-.chakra-ui-dark .chakra-breadcrumb__list-item .chakra-breadcrumb__link{
+.chakra-ui-dark .chakra-breadcrumb__list-item .chakra-breadcrumb__link {
     background-color: rgba(45, 55, 72, .8) !important;
     border-radius: 6px !important;
 }
@@ -78,7 +79,6 @@ button.chakra-button.css-squyht {
 
 a:hover {
     color: #f9cfec !important
-    
 }
 
 div.footer.css-3m0ceo {
@@ -96,7 +96,7 @@ div.footer.css-3m0ceo {
 }
 
 #copy {
-    background-color:pink!important;
+    background-color: pink !important;
     border-radius: 10px !important
 }
 
@@ -107,20 +107,25 @@ div.footer.css-3m0ceo {
     height: 100vh;
 }
 
-.chakra-ui-light, .chakra-ui-dark {
+.chakra-ui-light,
+.chakra-ui-dark {
     /* background-image: url(https://ghproxy.com/https://raw.githubusercontent.com/htnanako/nanako-blog/main/public-IMG/shenzi.png); */
     background-position: center;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 @media screen and (max-width:960px) {
-    .chakra-ui-light, .chakra-ui-dark {
+    body::before {
         /* background-image: url(https://ghproxy.com/https://raw.githubusercontent.com/htnanako/nanako-blog/main/public-IMG/shubanbizhi.png); */
-        background-position: center;
-        background-attachment:fixed;
+        content: '';
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
         background-size: cover;
-        background-repeat: no-repeat;
     }
 }
